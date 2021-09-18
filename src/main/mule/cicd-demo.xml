@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="3911665c-5eec-4806-9ae6-9da041790f28" >
+		<http:listener-connection host="0.0.0.0" port="8081" />
+	</http:listener-config>
+	<flow name="cicd-demoFlow" doc:id="e69b1b69-c6be-4c76-bcc0-1625856c6bb4" >
+		<http:listener doc:name="Listener" doc:id="bfd69b22-e6ea-4329-aa38-1c1644872524" config-ref="HTTP_Listener_config" path="/helloworld"/>
+		<logger level="INFO" doc:name="Logger" doc:id="caf47365-6dfa-4175-a894-0a84d064d44f" message="Hello CICD demo App"/>
+	</flow>
+</mule>
