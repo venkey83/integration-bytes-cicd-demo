@@ -32,10 +32,9 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.3.0</muleVersion>
+						<muleVersion>mule.version</muleVersion>
 						<username>api-mgt-aqib7</username>
 						<password>Aqib@rc.com4321</password>
 						<environment>Sandbox</environment>
