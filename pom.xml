@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>cicd-demo</artifactId>
+	<artifactId>integration-bytes-cicd-demo</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
 
@@ -36,10 +36,10 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${mule.version}</muleVersion>
-						<username>${anypoint.username}</username>
-						<password>${anypoint.password}</password>
+						<username>api-mgt-aqib7</username>
+						<password>Aqib@rc.com4321</password>
 						<environment>${env}</environment>
-						<applicationName>${appname}</applicationName>
+						<applicationName>integration-bytes-cicd-demo</applicationName>
 						<businessGroup>${business}</businessGroup>
 						<workerType>${vCore}</workerType>
 						<workers>${workers}</workers>
