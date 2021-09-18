@@ -35,14 +35,14 @@
 
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>${mule.version}</muleVersion>
+						<muleVersion>4.3.0</muleVersion>
 						<username>api-mgt-aqib7</username>
 						<password>Aqib@rc.com4321</password>
-						<environment>${env}</environment>
+						<environment>sandbox</environment>
 						<applicationName>integration-bytes-cicd-demo</applicationName>
-						<businessGroup>${business}</businessGroup>
-						<workerType>${vCore}</workerType>
-						<workers>${workers}</workers>
+						<businessGroup>Aqib</businessGroup>
+						<workerType>Micro</workerType>
+						<workers>1</workers>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 				</configuration>
