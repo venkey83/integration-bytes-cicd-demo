@@ -38,7 +38,7 @@
 						<muleVersion>4.3.0</muleVersion>
 						<username>api-mgt-aqib7</username>
 						<password>Aqib@rc.com4321</password>
-						<!-- <environment>Sandbox</environment>  -->
+						<environment>Sandbox</environment>
 						<applicationName>integration-bytes-cicd-demo</applicationName>
 						<businessGroup>Aqib</businessGroup>
 						<workerType>Micro</workerType>
