@@ -9,13 +9,13 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
 
-	<name>integration-bytes-cicd-demo</name>
+	<name>hellotest</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<app.runtime>4.3.0</app.runtime>
+		<app.runtime>4.4.0</app.runtime>
 		<mule.maven.plugin.version>3.4.2</mule.maven.plugin.version>
 	</properties>
 
@@ -38,23 +38,27 @@
 <!-- 						<username>${api-mgt-aqib7}</username> -->
 <!-- 						<password>Aqib@rc.com4321</password> -->
 <!-- 						<environment>Sandbox</environment> -->
-<!-- 						<applicationName>integration-bytes-cicd-demo</applicationName> -->
+<!-- 						<applicationName>hellotest</applicationName> -->
 <!-- 						<businessGroup>Aqib</businessGroup> -->
 <!-- 						<workerType>Micro</workerType> -->
 <!-- 						<workers>1</workers> -->
 <!-- 						<objectStoreV2>true</objectStoreV2> -->
+						
 
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${mule.version}</muleVersion>
 						<username>${anypoint.username}</username>
 						<password>${anypoint.password}</password>
+						<target>${target}</target>
+						<targetType>${target.type}</targetType>
 						<environment>${env}</environment>
 						<applicationName>${appname}</applicationName>
 						<businessGroup>${business}</businessGroup>
 						<workerType>${vCore}</workerType>
 						<workers>${workers}</workers>
-						<objectStoreV2>true</objectStoreV2>
-					</cloudHubDeployment>
+			<!-- 			<objectStoreV2>true</objectStoreV2>  -->
+			<!-- 		</cloudHubDeployment> -->
+					</armDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
