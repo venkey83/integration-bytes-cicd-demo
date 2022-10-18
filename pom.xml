@@ -47,7 +47,7 @@
 
    <password>${anypoint.password}</password>
 
-   <environment>dev</environment>
+   <!-- <environment>dev</environment>-->
 
  <businessGroup>${project.businessGroup}</businessGroup>
 
