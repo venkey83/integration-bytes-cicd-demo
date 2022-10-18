@@ -32,7 +32,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<cloudHubDeployment>
+					<armDeployment>
 <!-- 						<uri>https://anypoint.mulesoft.com</uri> -->
 <!-- 						<muleVersion>${mule.version}</muleVersion> -->
 <!-- 						<username>${api-mgt-aqib7}</username> -->
@@ -51,10 +51,9 @@
 						<environment>${env}</environment>
 						<applicationName>${appname}</applicationName>
 						<businessGroup>${business}</businessGroup>
-						<workerType>${vCore}</workerType>
-						<workers>${workers}</workers>
-						<objectStoreV2>true</objectStoreV2>
-					</cloudHubDeployment>
+						<target>${project.target}</target>
+                                               <targetType>${project.targetType}</targetType>
+					<armDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
