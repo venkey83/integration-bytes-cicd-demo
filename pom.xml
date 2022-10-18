@@ -51,8 +51,8 @@
 						<environment>${env}</environment>
 						<applicationName>${appname}</applicationName>
 						<businessGroup>${business}</businessGroup>
-            <target>${project.target}</target>
-   <targetType>${project.targetType}</targetType>
+            <target>test</target>
+   <targetType>server</targetType>
 					</armDeployment>
 				</configuration>
 			</plugin>
