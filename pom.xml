@@ -32,33 +32,33 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<cloudHubDeployment>
-<!-- 						<uri>https://anypoint.mulesoft.com</uri> -->
-<!-- 						<muleVersion>${mule.version}</muleVersion> -->
-<!-- 						<username>${api-mgt-aqib7}</username> -->
-<!-- 						<password>Aqib@rc.com4321</password> -->
-<!-- 						<environment>Sandbox</environment> -->
-<!-- 						<applicationName>hellotest</applicationName> -->
-<!-- 						<businessGroup>Aqib</businessGroup> -->
-<!-- 						<workerType>Micro</workerType> -->
-<!-- 						<workers>1</workers> -->
-<!-- 						<objectStoreV2>true</objectStoreV2> -->
-						
+                             
+					 <armDeployment>
 
-						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>${mule.version}</muleVersion>
-						<username>${anypoint.username}</username>
-						<password>${anypoint.password}</password>
-						<!-- <target>test</target>
-						<targetType>Hybrid</targetType>-->
-						<environment>${env}</environment>
-						<applicationName>${appname}</applicationName>
-						<businessGroup>${business}</businessGroup>
-						<workerType>${vCore}</workerType>
-						<workers>${workers}</workers>
-			<!-- 			<objectStoreV2>true</objectStoreV2>  -->
-				</cloudHubDeployment> 
-				<!-- 		</armDeployment> -->
+   <muleVersion>${mule.version}</muleVersion>
+
+   <uri>https://anypoint.mulesoft.com</uri>
+
+   <target>${project.target}</target>
+
+   <targetType>${project.targetType}</targetType>
+
+   <username>${anypoint.username}</username>
+
+   <password>${anypoint.password}</password>
+
+   <environment>${project.environment}</environment>
+
+ <businessGroup>${project.businessGroup}</businessGroup>
+
+   <businessGroupId>${project.businessGroupId}</businessGroupId>
+
+    <applicationName>${project.name}</applicationName>
+
+ 
+
+  </armDeployment>
+					
 				</configuration>
 			</plugin>
 		</plugins>
