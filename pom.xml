@@ -47,12 +47,6 @@
 
    <password>${anypoint.password}</password>
 
-   <!-- <environment>dev</environment>-->
-
- <businessGroup>${project.businessGroup}</businessGroup>
-
-   <businessGroupId>${project.businessGroupId}</businessGroupId>
-
     <applicationName>$hellotest</applicationName>
 
  
