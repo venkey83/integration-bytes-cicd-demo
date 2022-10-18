@@ -51,7 +51,7 @@
  <businessGroup>${project.businessGroup}</businessGroup>
 
    <businessGroupId>${project.businessGroupId}</businessGroupId>
-    <applicationName>$hellotest</applicationName>
+    <applicationName>hellotest</applicationName>
 
  
 
