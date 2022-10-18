@@ -46,7 +46,11 @@
    <username>${anypoint.username}</username>
 
    <password>${anypoint.password}</password>
+   <environment>Sandbox</environment>
 
+ <businessGroup>${project.businessGroup}</businessGroup>
+
+   <businessGroupId>${project.businessGroupId}</businessGroupId>
     <applicationName>$hellotest</applicationName>
 
  
