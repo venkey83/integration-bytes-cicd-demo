@@ -49,8 +49,8 @@
 						<muleVersion>${mule.version}</muleVersion>
 						<username>${anypoint.username}</username>
 						<password>${anypoint.password}</password>
-						<target>${target}</target>
-						<targetType>${target.type}</targetType>
+						<target>test</target>
+						<targetType>Hybrid</targetType>
 						<environment>${env}</environment>
 						<applicationName>${appname}</applicationName>
 						<businessGroup>${business}</businessGroup>
