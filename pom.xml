@@ -47,13 +47,13 @@
 
    <password>${anypoint.password}</password>
 
-   <environment>${project.environment}</environment>
+   <environment>dev</environment>
 
  <businessGroup>${project.businessGroup}</businessGroup>
 
    <businessGroupId>${project.businessGroupId}</businessGroupId>
 
-    <applicationName>${project.name}</applicationName>
+    <applicationName>$hellotest</applicationName>
 
  
 
